@@ -23,7 +23,7 @@
     </p>
 </div>
 <div style="margin: 5em 1em">
-    <h2>Raw output samples</h2>
+    <h2>Raw output samples: in the same controller's view</h2>
     <table>
         <tr><th>Expression</th><th>Result</th></tr>
         <tr>
@@ -47,5 +47,11 @@
         </tr>
     </table>
 </div>
+
+<g:include controller="rawContent"/>
+
+<g:render template="/templates/rawContent" model="[content: contentTemplate]"/>
+
+
 </body>
 </html>
