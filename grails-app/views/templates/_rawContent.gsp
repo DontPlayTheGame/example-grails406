@@ -22,5 +22,9 @@
             <td>${'<g:encodeAs codec="None">${content}</g:encodeAs>'}</td>
             <td><g:encodeAs codec="None">${content}</g:encodeAs></td>
         </tr>
+        <tr>
+            <td>${'<myapp:rawOutput html="${content}"/>'}</td>
+            <td><myapp:rawOutput html="${content}"/></td>
+        </tr>
     </table>
 </div>
